@@ -1,0 +1,42 @@
+.slider-wrapper {
+    width: 400px;
+    position: relative;
+    margin: auto;
+    height: 500px;
+}
+
+.slider-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider-wrapper .btn {
+    cursor: pointer;
+    color: #fff;
+    background-color: #787272;
+    border: 0;
+}
+.slider-wrapper .next-btn, .slider-wrapper .prev-btn {
+    position: absolute;
+    top: 50%;
+    font-size: 26px;
+    background-color: #787272;
+    width: 40px;
+    height: 40px;
+}
+
+.slider-wrapper .next-btn {
+    right: 0;
+}
+
+.slider-wrapper .prev-btn {
+    left: 0;
+}
+
+.play-btn, .stop-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.play-btn {
+    margin-right: 10px;
+}
